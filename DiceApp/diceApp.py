@@ -1,14 +1,6 @@
 import iSenseAPI
 import iSense
 import random
-from kivy.app import App
-from kivy.uix.button import Button
-
-class TestApp(App):
-    def build(self):
-        return Button(text='Hello World')
-
-TestApp().run()
 
 user_credentials = iSense.Credentials(username="t@t.t", password="t")
 number_of_dice_rolls = int(raw_input("Enter number of dice rolls: "))
