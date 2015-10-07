@@ -2,7 +2,7 @@ import iSenseAPI
 import iSense
 import random
 
-user_credentials = iSense.Credentials(username="t@t.t", password="t")
+user_credentials = iSense.Credentials(username="USERNAME HERE", password="PASSWORD HERE")
 number_of_dice_rolls = int(raw_input("Enter number of dice rolls: "))
 
 project = iSense.Project(1379)
